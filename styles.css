@@ -6,3 +6,102 @@
 html {
   font-size: 16px;
 }
+
+.container {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  background-color: skyblue;
+}
+
+nav {
+  padding-top: 1.25%;
+  text-align: center;
+}
+
+nav ul {
+  padding-left: 6.25rem;
+}
+
+nav ul li {
+  display: inline-flex;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.mission {
+  background-image: url('./resources/images/new-york-brooklyn-bridge-skyline.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31.25rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  opacity: 0.85;
+}
+
+.content h2 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5rem;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  opacity: 1;
+}
+
+.container h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  color:white;
+  -webkit-text-stroke: 1px black;
+  opacity: 1;
+  padding-top: 12%;
+}
+
+.the-team-title {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  align-items: center;
+  justify-items: center;
+  background-color: skyblue;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  font-size: 2rem;
+  
+}
+
+.the-team {
+  display: flex;
+}
+
+.card {
+  background-color: skyblue;
+  height: 31.25rem;
+  width: 100%;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
+}
+ 
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
