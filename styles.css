@@ -7,6 +7,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .container {
   width: 100%;
 }
@@ -20,6 +24,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   background-color: skyblue;
+  margin-bottom: 5px;
 }
 
 nav {
@@ -81,10 +86,16 @@ nav ul li {
   font-size: 2rem;
   justify-content: center;
   justify-items: center;
+  margin-top: 5px;
+  margin-bottom: 2.5px;
 }
 
 .the-team-title h2 {
   margin: 0 10px;
+}
+
+.name {
+  padding-top: 5px;
 }
 
 .the-team-title img {
@@ -105,7 +116,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 5px;
+  margin: 2.5px;
 }
 
 .image-container {
@@ -146,10 +157,16 @@ nav ul li {
   font-size: 2rem;
   justify-content: center;
   justify-items: center;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
 }
 
 .the-project-title h2 {
   margin: 0 10px;
+}
+
+.project-name {
+  padding-top: 5px;
 }
 
 .the-project-title img {
@@ -186,4 +203,24 @@ nav ul li {
   font-size: 1.25rem;
   padding-top: 1rem;
   line-height: 1.5;
+}
+
+footer {
+  background-color: skyblue;
+  margin-top: 2.5px;
+  padding-bottom: 10px;
+}
+
+footer h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+footer ul {
+  text-align: center;
+  list-style: none;
+}
+
+footer p {
+  text-align: center;
 }
