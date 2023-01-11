@@ -132,3 +132,33 @@ nav ul li {
   padding-top: 1rem;
   line-height: 1.5;
 }
+
+.project-title {
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  align-items: center;
+  justify-items: center;
+  background-color: skyblue;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  font-size: 2rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.project-title h2 {
+  margin: 0 10px;
+}
+
+.project-title img {
+  overflow: hidden;
+  width: 2.5%;
+  height: 100px;
+  margin: 0 5px;
+}
+
+.projects {
+  display: flex;
+}
