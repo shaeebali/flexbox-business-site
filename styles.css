@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -17,7 +18,11 @@ body {
 
 header h1 {
   font-size: 4rem;
+  color: white;
   text-align: center;
+  font-family: 'Cairo', sans-serif;
+  -webkit-text-stroke: 0.1px black;
+
 }
 
 .header {
@@ -27,6 +32,16 @@ header h1 {
   margin-bottom: 5px;
 }
 
+.header a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+  color: red;
+}
+
 nav {
   padding-top: 1.25%;
   text-align: center;
@@ -34,6 +49,7 @@ nav {
 
 nav ul {
   padding-left: 6.25rem;
+  padding-top: 1.75rem;
 }
 
 nav ul li {
@@ -66,7 +82,7 @@ nav ul li {
 
 .container h4 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color:white;
   -webkit-text-stroke: 1px black;
   opacity: 1;
@@ -101,7 +117,7 @@ nav ul li {
 .the-team-title img {
   overflow: hidden;
   width: 2.5%;
-  height: 100px;
+  height: 140px;
   margin: 0 5px;
 }
 
@@ -111,7 +127,7 @@ nav ul li {
 
 .card {
   background-color: skyblue;
-  height: 31.25rem;
+  height: 33rem;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -121,7 +137,7 @@ nav ul li {
 
 .image-container {
   width: 50%;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   padding-top: 20px;
 }
@@ -197,7 +213,7 @@ nav ul li {
   font-size: 2rem;
 }
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .project-description {
   font-size: 1.25rem;
@@ -214,13 +230,23 @@ footer {
 footer h2 {
   font-size: 3rem;
   text-align: center;
+  padding-top: 1rem;
 }
 
 footer ul {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   text-align: center;
   list-style: none;
+  padding: 1rem 0;
+  margin: 0px 5px;
+  font-size: 1.2rem;
 }
 
 footer p {
   text-align: center;
+  padding-bottom: 0.25rem;
 }
